@@ -9,6 +9,7 @@
   background-color: #3cdbc0;
 }
 .header {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -61,5 +62,8 @@
   }
   .item {
     font-size: 40px;
+  }
+  .link {
+    margin-top: 40px;
   }
 }
