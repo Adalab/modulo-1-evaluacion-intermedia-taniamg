@@ -19,18 +19,20 @@ header {
   border-top: 10px;
   border-bottom: 10px;
 }
-.ul {
+.nav {
   padding-top: 10px;
   padding-bottom: 13px;
   border: 20px;
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
-.nav {
+.link {
   border: 20px;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #4a4a4a;
   font-size: 16px;
+  list-style: none;
 }
 .main {
   width: 100vw;
@@ -45,4 +47,12 @@ header {
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
+}
+
+@media all and (mind-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
