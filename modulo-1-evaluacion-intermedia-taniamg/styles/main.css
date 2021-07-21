@@ -43,4 +43,6 @@ header {
 }
 .item {
   font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
 }
