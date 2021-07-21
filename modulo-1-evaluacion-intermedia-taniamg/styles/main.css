@@ -19,20 +19,28 @@ header {
   border-top: 10px;
   border-bottom: 10px;
 }
-.nav {
-  border-top: 10px;
-  border-bottom: 13px;
+.ul {
+  padding-top: 10px;
+  padding-bottom: 13px;
+  border: 20px;
   display: flex;
-
   justify-content: center;
+}
+.nav {
+  border: 20px;
+  text-decoration: none;
   color: #4a4a4a;
+  font-size: 16px;
 }
 .main {
-  width: 100%vw;
-  height: 100%vh;
+  width: 100vw;
+  height: 100vh;
   background-color: #3cdbc0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+.item {
+  font-size: 30px;
 }
