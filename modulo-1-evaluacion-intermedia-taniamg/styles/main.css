@@ -7,13 +7,13 @@
   font-family: "Rubik", sans-serif;
   color: #ffffff;
   background-color: #3cdbc0;
-  text-align: center;
 }
-header {
+.header {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: white;
+  text-align: center;
+  padding-top: 10px;
 }
 .logo {
   border-top: 10px;
@@ -28,12 +28,9 @@ header {
   display: inline-block;
 }
 .link {
-  border: 20px;
   padding: 20px;
-
   color: #4a4a4a;
   font-size: 16px;
-
   border-left: 20px;
   text-decoration: none;
 }
@@ -45,6 +42,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .item {
   font-size: 30px;
@@ -52,11 +50,13 @@ header {
   padding: 10px;
 }
 
-@media all and (mind-width: 768px) {
+@media all and(mind-width: 768px) {
   .header {
     display: flex;
     position: relative;
-    flex-direction: row;
+    background-color: white;
     justify-content: space-between;
+    text-align: center;
+    padding-top: 10px;
   }
 }
