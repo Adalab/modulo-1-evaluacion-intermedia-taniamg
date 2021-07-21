@@ -50,7 +50,7 @@
   padding: 10px;
 }
 
-@media all and(mind-width: 768px) {
+@media all and (min-width: 768px) {
   .header {
     display: flex;
     position: relative;
@@ -58,5 +58,8 @@
     justify-content: space-between;
     text-align: center;
     padding-top: 10px;
+  }
+  .item {
+    font-size: 40px;
   }
 }
