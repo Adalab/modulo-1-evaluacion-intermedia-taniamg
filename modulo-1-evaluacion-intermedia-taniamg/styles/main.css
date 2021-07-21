@@ -55,6 +55,7 @@ header {
 @media all and (mind-width: 768px) {
   .header {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: space-between;
   }
