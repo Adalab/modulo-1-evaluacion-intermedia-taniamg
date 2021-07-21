@@ -53,10 +53,10 @@
 @media all and (min-width: 768px) {
   .header {
     display: flex;
-    position: relative;
+    flex-direction: row;
     background-color: white;
     justify-content: space-between;
-    text-align: center;
+
     padding-top: 10px;
   }
   .item {
