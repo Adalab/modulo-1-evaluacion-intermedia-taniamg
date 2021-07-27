@@ -10,31 +10,32 @@
 }
 .header {
   width: 100vw;
+  position: fixed;
+  top: 0;
+  right: 0;
   display: flex;
+  box-sizing: border-box;
   flex-direction: column;
   background-color: white;
   text-align: center;
-  padding-top: 10px;
+  padding-bottom: 5px;
 }
 .logo {
-  border-top: 10px;
-  border-bottom: 10px;
+  padding-top: 10px;
 }
 .nav {
-  padding-top: 10px;
-  padding-bottom: 13px;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
 }
-.div {
-  list-style: none;
-  display: inline-block;
-  text-transform: uppercase;
-}
+
 .link {
-  padding: 20px;
+  padding: 10px 20px 13px 0px;
   color: #4a4a4a;
   font-size: 16px;
   border-left: 20px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .main {
   width: 100vw;
@@ -47,25 +48,28 @@
   text-align: center;
 }
 .item {
+  width: 9em;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 10px;
+  text-align: center;
   text-transform: capitalize;
 }
 
 @media all and (min-width: 768px) {
   .header {
-    display: flex;
     flex-direction: row;
     background-color: white;
     justify-content: space-between;
-
-    padding-top: 10px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0px;
   }
   .item {
     font-size: 40px;
   }
-  .link {
+  .nav {
     padding-left: 30px;
   }
 }
